@@ -204,12 +204,14 @@ padding: 11px;
 
   #trending-product img{
     position: absolute;
-    width: 60%
+    width: 60%;
+    left: -30px;
 
   }
   #trending-product{
     display: flex;
     align-items: flex-end;
+
   }
   #activites-product_type1 , #activites-product_type2 , #activites-product_type3{
     display: flex;
@@ -247,5 +249,26 @@ footer {
 }
 
 .searchbar{
-
+border: solid 1px grey;
+border-right: none;
+border-left: none;
+padding: 10px 5px;
+}
+.bouton{
+  border: solid 1px #0065fc;
+  border-left: none;
+  padding: 10px 10px;
+  color: white;
+  background-color: #0065fc;
+  border-radius: 0px 10px 10px 0px;
+}
+.map{
+  border: solid 1px grey;
+  border-right: none;
+  padding: 9px 10px;
+  color: white;
+  background-color: #grey;
+  border-radius: 10px 0px 0px 10px;
+  display: inline;
+  padding-top: 8.5px;
 }
