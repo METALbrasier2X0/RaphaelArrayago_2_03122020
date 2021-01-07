@@ -81,7 +81,7 @@ footer {
   }
 
   #caption {
-    margin-top: 222px;
+    margin-top: 240px;
     font-size: 1em;
 }
 
@@ -92,4 +92,12 @@ footer {
 #trending-product #caption {
     right: -250px;
     height: 210px;
+}
+
+#trending-product i {
+    margin-top: 0px;
+}
+
+#product #caption p , h3{
+  margin: 10px
 }
