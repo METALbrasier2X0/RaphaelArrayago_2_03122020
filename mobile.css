@@ -75,7 +75,7 @@ footer {
 #filtre {
     margin: 50px 30px;
     display: flex;
-    font-size: 50px;
+    font-size: 35px;
     flex-wrap: wrap;
 }
 
@@ -87,8 +87,8 @@ footer {
   }
 
   #caption {
-    margin-top: 250px;
-    font-size: 1em;
+      margin-top: 240px;
+      font-size: 1.05em;
 }
 
 #trending-product {
@@ -109,7 +109,8 @@ footer {
 }
 
 .activites h2{
-  margin-left: 65px;
+      margin-left: 9%;
+      font-size: 22px;
 }
 
 .logo {
@@ -120,6 +121,7 @@ footer {
 }
 .info {
   margin: 20px;
+  font-size: 15px;
 }
 
 #mobnav-sign{
@@ -156,9 +158,81 @@ margin-right: -40px;
   }
 
   .tags {
-      margin: 5px;
-      border: 1px solid #cccaca;
-      border-radius: 0px 100px 100px 0px;
-      padding: 11px 10px 11px 22px;
-      border-left: none;
-  }
+    margin: 5px;
+    border: 1px solid #cccaca;
+    border-radius: 0px 100px 100px 0px;
+    padding: 25px 30px 25px 50px;
+    border-left: none;
+    font-weight: 600;
+}
+
+.tag-component i {
+  color: #0065fc;
+  background-color: #0065fc38;
+  padding: 30px;
+  margin-right: -37px;
+  border-radius: 59px;
+}
+#spe{
+  padding: 30px 40px;
+}
+
+input , button{
+    font-size: 47px;
+    margin: 65px 0px;
+    padding: 35px 35px!important;
+}
+
+.searchbar {
+    border: solid 1px #cccaca;
+    border-right: none;
+    border-left: none;
+    padding: 10px 5px;
+    font-weight: 600;
+}
+.map{
+  border: 1px solid #cccaca;
+  background-color: #f5f5f5;
+border-radius: 20px 0px 0px 25px;
+margin-right: -5px;
+}
+
+.bouton {
+    border: solid 1px #0065fc;
+    border-left: none;
+    padding: 10px 10px;
+    margin-left: -5px;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#filtre p{
+    position: absolute;
+    margin-top: -60px;
+    font-weight: 700;
+}
+
+.product-result h2, .trending h2 {
+    margin-left: 5%;
+    margin-bottom: 30px!important;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+a.afficher {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 115px;
+}
+
+footer {
+    font-size: 23px;
+    width: 100%;
+    padding: 25px;
+}
+
+.footer-list li {
+    list-style: none;
+    margin: 30px 10px 30px 0px;
+}

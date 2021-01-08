@@ -94,6 +94,9 @@ align-items: center;
     border-radius: 25px;
 }
 
+.info i {
+  color:  #0065fc;
+}
 /* ////////////////fin////////////////// */
 
 /* Pages produits */
