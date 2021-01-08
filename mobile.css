@@ -52,7 +52,7 @@ width: 700px;
 }
 
 #activites-list .caption {
-  padding: 20px  25px;
+  padding: 20px  25px!important;
 font-size: 23px!important;
 }
 
@@ -109,8 +109,7 @@ footer {
 }
 
 .activites h2{
-      margin-left: 9%;
-      font-size: 22px;
+      margin-left: 10%;
 }
 
 .logo {
@@ -121,7 +120,7 @@ footer {
 }
 .info {
   margin: 20px;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 #mobnav-sign{
@@ -236,3 +235,14 @@ footer {
     list-style: none;
     margin: 30px 10px 30px 0px;
 }
+
+.Search p{
+  font-size: 30px;
+}
+h2{
+  font-size: 25px;
+}
+@supports (-moz-appearance:none) {
+h2{
+  font-size: 40px;
+}}
