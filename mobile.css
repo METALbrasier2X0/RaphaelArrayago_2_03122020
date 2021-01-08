@@ -32,7 +32,7 @@ footer{
     border-radius: 15px;
     padding: 15px;
     margin: 20px;
-    width: 100%;
+    width: 98%;
 }
 
 #activites-list {
@@ -44,7 +44,7 @@ footer{
     align-content: center;
 }
 
-#activites-product_type1 , #activites-product_type2 , #activites-product_type3{
+.activites-product_type1 , .activites-product_type2 , .activites-product_type3{
 margin: 20px;
 width: 700px;
     height: 380px;
@@ -80,8 +80,8 @@ footer {
 }
 
 
-#product {
-    width: 75%;
+.product {
+    width: 75%!important;
     height: 360px;
    border: solid 10px white;
   }
@@ -91,20 +91,20 @@ footer {
       font-size: 1.05em;
 }
 
-#trending-product {
+.trending-product {
     height: 215px;
 }
 
-#trending-product #caption {
+.trending-product #caption {
     right: -250px;
     height: 210px;
 }
 
-#trending-product i {
+.trending-product i {
     margin-top: 45px;
 }
 
-#product #caption p , h3{
+.product #caption p , h3{
   margin: 10px;
 }
 

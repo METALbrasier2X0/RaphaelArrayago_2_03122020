@@ -127,11 +127,11 @@ align-items: center;
 .product-result{
     width: 960px;
 }
-#product{
+.product{
   background-color: white;
   border-radius: 20px;
   width:27%;
-  padding: 0px;
+  padding: 0px!important;
   overflow: hidden;
   position: relative;
   border: solid 5px white;
@@ -153,7 +153,7 @@ align-items: center;
   margin-left: 0px;
   margin-bottom: 0px;
 }
-#product img{
+.product img{
   width: 100%;
   margin-top: -20px;
   position: absolute;
@@ -171,11 +171,11 @@ align-items: center;
   justify-content: center;
 }
 
-#trending-product{
+.trending-product{
   background-color: white;
   border-radius: 20px;
   width: 80%;
-  padding: 0px;
+  padding: 0px!important;
   overflow: hidden;
   position: relative;
   border: solid 5px white;
@@ -199,7 +199,7 @@ align-items: center;
   align-content: flex-start;
 }
 
-#activites-product_type1{
+.activites-product_type1{
   background-color: white;
   border-radius: 20px;
   width: 23%;
@@ -212,7 +212,7 @@ align-items: center;
   box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.3);
   margin: -3px 20px 0px 0px;
 }
-#activites-product_type2{
+.activites-product_type2{
   background-color: white;
   border-radius: 20px;
   width: 23%;
@@ -225,7 +225,7 @@ align-items: center;
   box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.3);
   margin: 0px 35px 20px 20px;
 }
-#activites-product_type3{
+.activites-product_type3{
   background-color: white;
   border-radius: 20px;
   width: 23%;
@@ -238,14 +238,14 @@ align-items: center;
   box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.3);
   margin: 20px 35px 0px 20px;
 }
-#activites-product_type3 img{
+.activites-product_type3 img{
   width: 100%;
 }
-#activites-product_type1 img{
+.activites-product_type1 img{
   width: 230%;
   left: -220px;
 }
-#activites-product_type2 img{
+.activites-product_type2 img{
   width: 116%;
 }
 
@@ -268,36 +268,36 @@ align-items: center;
 
   }
 
-  #trending-product img{
+  .trending-product img{
     position: absolute;
     width: 60%;
     left: -30px;
 
   }
-  #trending-product{
+  .trending-product{
     display: flex;
     align-items: flex-end;
 
   }
-  #activites-product_type1 , #activites-product_type2 , #activites-product_type3{
+  .activites-product_type1 , .activites-product_type2 , .activites-product_type3{
     display: flex;
     align-items: flex-end;
   }
 
-#trending-product #caption{
+.trending-product #caption{
   right: -145px;
   height: 130px;}
 
-  #trending-product i {
+  .trending-product i {
     margin-top: 35px;
     color: #0065fc;
 }
 
-#case{
+.case{
   margin-top: 21px!important;
 }
 
-#product i {
+.product i {
   color: #0065fc;
 }
 
