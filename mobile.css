@@ -51,7 +51,7 @@ width: 700px;
 
 }
 
-#activites-list #caption {
+#activites-list .caption {
   padding: 20px  25px;
 font-size: 23px!important;
 }
@@ -86,16 +86,16 @@ footer {
    border: solid 10px white;
   }
 
-  #caption {
-      margin-top: 240px;
-      font-size: 1.05em;
+  .caption {
+      margin-top: 240px!important;
+      font-size: 1.05em!important;
 }
 
 .trending-product {
     height: 215px;
 }
 
-.trending-product #caption {
+.trending-product .caption {
     right: -250px;
     height: 210px;
 }
@@ -104,7 +104,7 @@ footer {
     margin-top: 45px;
 }
 
-.product #caption p , h3{
+.product .caption p , h3{
   margin: 10px;
 }
 
