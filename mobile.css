@@ -2,7 +2,7 @@ html{
   font-size: 22px;
 }
 h1{
- font-size: 60px;
+ font-size: 1.5em;
 }
 footer{
   font-size: 22px;
@@ -32,7 +32,6 @@ footer{
     border-radius: 15px;
     padding: 15px;
     margin: 20px;
-    width: 98%;
 }
 
 #activites-list {
@@ -46,7 +45,7 @@ footer{
 
 .activites-product_type1 , .activites-product_type2 , .activites-product_type3{
 margin: 20px;
-width: 700px;
+width: 80%;
     height: 380px;
 
 }
@@ -75,7 +74,7 @@ footer {
 #filtre {
     margin: 50px 30px;
     display: flex;
-    font-size: 35px;
+    font-size: 1.2em;
     flex-wrap: wrap;
 }
 
@@ -115,16 +114,16 @@ footer {
 .logo {
     padding-top: 0px;
     margin: 30px;
-    width: 260px;
+    width: 25%;
     margin-top: 12px;
 }
 .info {
   margin: 20px;
-  font-size: 30px;
+  font-size: 0.7em;
 }
 
 #mobnav-sign{
-  top: 35px;
+  top: 25px;
     right: 0;
     position: absolute;
     font-weight: 700;
@@ -137,10 +136,10 @@ border-bottom: none;
 }
 
 .navbar{
-  width: 103%;
-margin-right: -40px;
+  width: 95%;
+    margin-right: 2.5%;
   justify-content: center;
-  font-size: 40px;
+  font-size: 1.2em;
 }
 
 .navbar li{
@@ -160,7 +159,7 @@ margin-right: -40px;
     margin: 5px;
     border: 1px solid #cccaca;
     border-radius: 0px 100px 100px 0px;
-    padding: 25px 30px 25px 50px;
+    padding: 15px 20px 15px 40px;
     border-left: none;
     font-weight: 600;
 }
@@ -168,18 +167,18 @@ margin-right: -40px;
 .tag-component i {
   color: #0065fc;
   background-color: #0065fc38;
-  padding: 30px;
+  padding: 20px;
   margin-right: -37px;
   border-radius: 59px;
 }
 #spe{
-  padding: 30px 40px;
+  padding: 20px 30px;
 }
 
 input , button{
-    font-size: 47px;
+    font-size: 1.1em;
     margin: 65px 0px;
-    padding: 35px 35px!important;
+    padding: 25px 25px!important;
 }
 
 .searchbar {
@@ -227,7 +226,6 @@ a.afficher {
 
 footer {
     font-size: 23px;
-    width: 100%;
     padding: 25px;
 }
 
@@ -237,7 +235,12 @@ footer {
 }
 
 .Search p{
-  font-size: 30px;
+  font-size: 1em;
+}
+div#trending-product-list {
+  width: 138%;
+margin-left: -12%;
+
 }
 h2{
   font-size: 25px;
