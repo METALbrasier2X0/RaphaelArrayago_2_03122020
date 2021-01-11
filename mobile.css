@@ -249,3 +249,19 @@ h2{
 h2{
   font-size: 40px;
 }}
+
+.trending-product {
+    width: 93%!important;
+    margin-left: 45px!important;
+
+}
+
+div#trending-product-list {
+    margin: auto;
+}
+
+@media screen and (max-width: 640px){
+  div#trending-product-list {
+      margin-left: -12%;
+  }
+}
