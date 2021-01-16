@@ -1,5 +1,5 @@
 html{
-  font-size: 22px;
+  font-size: 18px;
 }
 h1{
  font-size: 1.5em;
@@ -178,7 +178,7 @@ border-bottom: none;
 input , button{
     font-size: 1.1em;
     margin: 65px 0px;
-    padding: 25px 25px!important;
+    padding: 20px 20px!important;
 }
 
 .searchbar {
@@ -264,4 +264,24 @@ div#trending-product-list {
   div#trending-product-list {
       margin-left: -12%;
   }
+}
+
+.activites-product_type3 img {
+    width: 200%;
+    margin-left: -50px
+}
+
+.activites-product_type2 img {
+    width: 200%;
+      margin-left: -50px
+}
+
+.product .caption {
+        height: 150px;
+}
+
+.product img {
+    width: 120%;
+    margin-top: -20px;
+    position: absolute;
 }
